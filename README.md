@@ -24,7 +24,7 @@ var a = {
     "username" : "娇娇"
 }
 
-Q.send();
+Q.send(a);
 ```
 
 pull

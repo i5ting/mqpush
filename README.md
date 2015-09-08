@@ -2,7 +2,7 @@
 
 ## Install
 
-    [sudo] npm install --save qpush
+    [sudo] npm install --save mqpush
 
 ## Usages
 
@@ -16,7 +16,7 @@ var conf = {
   port  : "3002"
 }
 
-var Q = require('qpush')(conf);
+var Q = require('mqpush')(conf);
 
 var a = {
     "_id" : ("55dbd8d5a41a9b1e02f581c2"),
@@ -38,7 +38,7 @@ var conf = {
 }
 
 
-var Q = require('qpush')(conf);
+var Q = require('mqpush')(conf);
 
 Q.receive(function(json){
 });

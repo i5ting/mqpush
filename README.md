@@ -1,4 +1,4 @@
-# my-qpush
+# mqpush
 
 ## Install
 

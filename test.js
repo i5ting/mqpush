@@ -15,10 +15,12 @@ var a = {
     "username" : "娇娇"
 }
 
-Q.send(a);
-Q.send(a);
-Q.send(a);
-Q.send(a);
+Q.send(a); 
+
+setInterval(function(){
+  console.log('....')
+  Q.send(a);
+}, 1500);
 //
 // var Q = require('qpush')(ip, port);
 // Q.receive();

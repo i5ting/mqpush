@@ -1,5 +1,24 @@
 # mqpush
 
+mqpush是一个nodejs zeromq的push模型的封装模块
+
+## 前置条件
+
+mqpush依赖zeromq的头文件，所以需要预先安装zeromq。
+
+如果在ubuntu下
+
+    sudo apt-get install libzmq-dev
+
+如果是centos下
+
+    sudo yum install zeromq
+    
+如果是mac下
+
+    sudo brew install zeromq
+    
+    
 ## Install
 
     [sudo] npm install --save mqpush
